@@ -268,6 +268,24 @@ p{
 	color: #475569;
 }
 
+.list-container {
+	color: #fff6f1;
+	background-color: rgb(167, 163, 153);
+	padding: 3px 10px 3px 6px;
+}
+
+li {
+	position: relative;
+}
+
+li::before {
+	border-radius: 50%;
+	background-color: linear-gradient(at top left, red, blue);
+	position: absolute;
+	height: 6px;
+	width: 6px;
+}
+
 abbr {
 	color: #5b63ad;
 	font-weight: 400;
