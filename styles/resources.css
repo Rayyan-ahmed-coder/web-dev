@@ -348,17 +348,13 @@ body{
 
 	.search-section{
 		padding: 30px;
+        
 	}
 
 	.top-bar{
 		flex-direction: column;
 		align-items: flex-start;
 		gap: 20px;
-	}
-
-	.hero-text{
-		flex-direction: column;
-		align-items: flex-start;
 	}
 
 	.search-bar{
@@ -375,5 +371,12 @@ body{
 
 	.search-btn:hover{
 		transform: scale(1.02);
+	}
+}
+
+@media (max-width:450px) {
+    .hero-text{
+		flex-direction: column;
+		align-items: flex-start;
 	}
 }
