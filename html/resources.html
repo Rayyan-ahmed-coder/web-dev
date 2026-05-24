@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Other Resources</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Learning Resources</title>
+	<link rel="stylesheet" href="../styles/resources.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+	<!-- BACKGROUND EFFECTS -->
+	<div class="background-blur blur-1"></div>
+	<div class="background-blur blur-2"></div>
+	<div class="grid-overlay"></div>
+
+	<!-- MAIN CONTAINER -->
+	<main class="search-section">
+		<!-- TOP BAR -->
+		<div class="top-bar">
+			<a href="../index.html" class="back-btn">← Back</a>
+			<div class="mini-badge">Web Dev Hub</div>
+		</div>
+
+		<!-- HERO SECTION -->
+		<section class="hero-section">
+			<div class="hero-text">
+				<div class="hero-tag">
+					🚀 Web Development Hub
+				</div>
+				<p class="hero-description">
+					Search for tutorials, tools, documentation, and developer resources.
+				</p>
+			</div>
+		</section>
+
+		<!-- SEARCH -->
+		<section class="search-area">
+			<div class="search-wrapper">
+				<div class="search-glow"></div>
+				<svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35m1.85-5.15a7 7 0 11-14 0 7 7 0 0114 0z"/>
+				</svg>
+
+				<input
+					type="text"
+					list="input-search"
+					class="search-bar"
+					placeholder="Search resources, tools, tutorials..."
+					autocomplete="off" >
+
+				<button class="search-btn">
+					Search
+				</button>
+
+				<datalist id="input-search">
+					<option value="FreeCodeCamp">
+					<option value="MDN Web Docs">
+					<option value="CSS Tricks">
+					<option value="JavaScript Info">
+					<option value="Frontend Mentor">
+					<option value="Tailwind CSS">
+					<option value="CodePen">
+					<option value="React Documentation">
+				</datalist>
+			</div>
+		</section>
+
+		<!-- QUICK LINKS -->
+		<section class="quick-links">
+
+			<div class="quick-card">
+				<div class="card-icon">🎨</div>
+				<h3>Frontend</h3>
+				<p>HTML, CSS, animations, UI design, and responsive layouts.</p>
+			</div>
+
+			<div class="quick-card">
+				<div class="card-icon">⚡</div>
+				<h3>JavaScript</h3>
+				<p>Learn interactivity, APIs, logic, and dynamic web apps.</p>
+			</div>
+
+			<div class="quick-card">
+				<div class="card-icon">🛠</div>
+				<h3>Tools</h3>
+				<p>Discover developer tools, frameworks, and resources.</p>
+			</div>
+		</section>
+	</main>
 </body>
 </html>
