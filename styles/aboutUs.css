@@ -265,10 +265,11 @@ h2{
 }
 
 p{
+	font-family: "Merriweather", serif;
 	margin: 18px 0;
 	font-size: 1.05rem;
 	line-height: 1.7;
-	letter-spacing: 0.2px;
+	letter-spacing: 1.2px;
 	color: #475569;
 	max-width: 70ch;
 }
