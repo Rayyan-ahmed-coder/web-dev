@@ -148,6 +148,16 @@ header h1{
 	}
 }
 
+.scroll-top {
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	bottom: 5px;
+	right: 12px;
+	border-radius: 50%;
+	background-color: var(--light-blue);
+}
+
 .menu-bar{
 	grid-area: box-2;
 	position: sticky;

@@ -200,7 +200,7 @@ header h1 {
 	background: linear-gradient(135deg,#417cfc,#1d4ed8);
 	border-radius: inherit;
 	transform: translateX(-105%);
-	transition: transform 0.25s ease;
+	transition: transform 0.21s ease;
 	z-index:-1;
 }
 
@@ -237,6 +237,7 @@ header h1 {
 /* COURSE CARD */
 
 figure {
+	filter: brightness(102.5%);
 	margin: 0;
 	animation: loadIn 1s ease 1;
 }
@@ -274,11 +275,15 @@ figure:nth-child(5) {
 
 @keyframes loadIn {
 	0% {
-		transform: scale(0.75);
+		transform: scale(0.75) rotate(-1.4deg);
+	}
+
+	75% {
+		transform: scale(0.875) rotate(1.2deg); 
 	}
 
 	100% {
-		transform: scale(1);
+		transform: scale(1) rotate(0deg);
 	}
 }
 
